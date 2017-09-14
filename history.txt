@@ -1,0 +1,85 @@
+    1  VirtualBox --startvm XP
+    2  fascinating
+    3  ls
+    4  ls -a
+    5  ls -al
+    6  unamwe
+    7  uname
+    8  man
+    9  echo $0
+   10  uname -r
+   11  whoami
+   12  echo test >> test1.txt
+   13  cat test1.txt
+   14  rm test1.txt
+   15  cat test >> test1.txt
+   16  echo test >> test1.txt >> test2.txt
+   17  ls -la
+   18  ls
+   19  cat test1.txt
+   20  cat test2.txt
+   21  cp test2.txt >> test1.txt
+   22  cp -- help
+   23  cp --help
+   24  cp >> test1.txt >> test2.tx
+   25  cp >> test1.txt >> test2.txt
+   26  cp test1.txt test2.txt
+   27  cat test2.txtt
+   28  cat test2.txt
+   29  cat test1.txt
+   30  rm test2.txt
+   31  rm test1.txt
+   32  ls -la
+   33  ls
+   34  rm test2.tx
+   35  ls
+   36  history
+   37  who
+   38  whoami
+   39  who
+   40  uname -r 
+   41  uname
+   42  WOW
+   43  ls
+   44  ls -a
+   45  ls -la
+   46  BOOOOOOOOOOMM BITCH
+   47  quit
+   48  help
+   49  exit
+   50  test
+   51  firefox &
+   52  exit
+   53  cd ..
+   54  ls -la
+   55  ls 
+   56  cd 
+   57  ls
+   58  cd Documents/
+   59  ls
+   60  cd
+   61  exit
+   62  cd
+   63  cd ~
+   64  cd /
+   65  cd /home/user
+   66  echo $0
+   67  uname -r
+   68  uname
+   69  whoami
+   70  who
+   71  pwa
+   72  pwd
+   73  echo test test test >> test1.txt
+   74  cat test1.txt
+   75  rm test1.txt
+   76  mkdir darbi
+   77  cd darbi
+   78  echo test123 >> test1.txt
+   79  cp test1.txt test2.txt
+   80  ls
+   81  cat test2.txt
+   82  cat test1.txt
+   83  echo test1.txt
+   84  history > history.txt
+WOW SO NICE
