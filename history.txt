@@ -1,5 +1,4 @@
-    1  VirtualBox --startvm XP
-    2  fascinating
+    mama ima hacker
     3  ls
     4  ls -a
     5  ls -al
@@ -82,4 +81,14 @@
    82  cat test1.txt
    83  echo test1.txt
    84  history > history.txt
-WOW SO NICE
+   85  ls
+   86  nano history.txt
+   87  git init
+   88  git add .
+   89  git config --global user.email artjjaa@gmail.com
+   90  git commit -m "test commit"
+   91  git remote add origin https://github.com/RTUhacker/DMI__.git
+   92  git push origin master
+   93  history >> history.txt
+   94  nano history.txt
+   95  history > history.txt
