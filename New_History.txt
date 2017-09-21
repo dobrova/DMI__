@@ -86,6 +86,60 @@
    86  ls -l
    87  git-upload
    88  history > New_History.txt 
+   89  git-upload
+   90  ls -l
+   91  cd DMI__
+   92  ls -l
+   93  rmdir DMI__ --ignore-fail-on-non-empty 
+   94  ls -l
+   95  cd ..
+   96  ls -l
+   97  rmdir DMI__ --ignore-fail-on-non-empty 
+   98  ls -l
+   99  cd DMI__
+  100  ls -l
+  101  rm history.txt 
+  102  rm test1.txt
+  103  rm test2.txt
+  104  ls -l
+  105  cd ..
+  106  rmdir DMI__
+  107  ls -l
+  108  cd DMI__
+  109  ls -l
+  110  ls -al
+  111  rm .git 
+  112  ls -l
+  113  cd ..
+  114  cd 
+  115  cd DMI__
+  116  ls -l
+  117  git-upload
+  118  ~/DMI__/git-upload
+  119  nano 
+  120  ls -l
+  121  ~/DMI__/testewwer
+  122  chmod 774 testewwer 
+  123  ~/DMI__/testewwer
+  124  rm testewwer 
+  125  nano git-download 
+  126  nano git-upload 
+  127  nano New_History.txt 
+  128  git-upload
+  129  nano git-upload 
+  130  git-upload 
+  131  cd
+  132  NAME_VAR="Arturs"
+  133  echo NAME_VAR >> nametest.txt
+  134  cat nametest.txt 
+  135  echo $NAME_VAR 
+  136  echo $NAME_VAR >> nametest.txt
+  137  cat nametest.txt 
+  138  cd DMI__
+  139  ls -l
+  140  date
+  141  nano git-upload 
+  142  history > New_History.txt 
 
 chmod - Permissions(read write execute)
 PATH - celi prieks sistemas mainigiem
