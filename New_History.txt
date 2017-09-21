@@ -149,7 +149,16 @@
   149  nano git-upload
   150  date
   151  history > New_History.txt 
-
+  152  nano New_History.txt 
+  153  git-upload
+  154  $date
+  155  date
+  156  $(date)
+  157  $(date +%h +%m +%s)
+  158  $(date +%s)
+  159  $(date +%T)
+  160  nano git-upload 
+  161  history > New_History.txt 
 chmod - Permissions(read write execute)
 PATH - celi prieks sistemas mainigiem
 Git - add . - pievienot atjauninatos failus

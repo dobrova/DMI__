@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DATE_VAR=date
+DATE_VAR=$(date +%F-%T)
 
 git add -A
 git commit -m $DATE_VAR
