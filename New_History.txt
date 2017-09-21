@@ -140,10 +140,18 @@
   140  date
   141  nano git-upload 
   142  history > New_History.txt 
+  143  nano New_History.txt 
+  144  git-upload
+  145  nano git-upload 
+  146  git-upload
+  147  nano git-upload 
+  148  date
+  149  nano git-upload
+  150  date
+  151  history > New_History.txt 
 
 chmod - Permissions(read write execute)
 PATH - celi prieks sistemas mainigiem
 Git - add . - pievienot atjauninatos failus
 -push origin master - augsupladet failus uz git
 commit -m "something" - jauna commita nosaukums
- 

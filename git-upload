@@ -1,5 +1,7 @@
 #!/bin/bash
 
+DATE_VAR=date
+
 git add -A
-git commit -m timestamp=$(date +%s)
+git commit -m $DATE_VAR
 git push origin master
