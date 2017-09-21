@@ -86,3 +86,10 @@
    86  ls -l
    87  git-upload
    88  history > New_History.txt 
+
+chmod - Permissions(read write execute)
+PATH - celi prieks sistemas mainigiem
+Git - add . - pievienot atjauninatos failus
+-push origin master - augsupladet failus uz git
+commit -m "something" - jauna commita nosaukums
+ 
