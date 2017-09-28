@@ -1,0 +1,85 @@
+    1  VirtualBox --startvm XP
+    2  git clone https://github.com/RTUhacker/DMI__.git
+    3  ls -la
+    4  ls
+    5  cd DMI__/
+    6  ls
+    7  let --help
+    8  let
+    9  let man
+   10  man let
+   11  unset all
+   12  unset --help
+   13  man unset
+   14  help
+   15  unset info
+   16  info unset
+   17  ls -l
+   18  nano variable_tut.sh 
+   19  variable_tut.sh test
+   20  ./variable_tut.sh test test test
+   21  nano variable_tut.sh 
+   22  ./variable_tut.sh test test test
+   23  nano variable_tut.sh 
+   24  ./variable_tut.sh test test test
+   25  nano variable_tut.sh 
+   26  ./variable_tut.sh test test test
+   27  nano variable_tut.sh 
+   28  ./variable_tut.sh test test test
+   29  nano variable_tut.sh 
+   30  ./variable_tut.sh test test test
+   31  nano variable_tut.sh 
+   32  ./variable_tut.sh test test test
+   33  nano variable_tut.sh 
+   34  ./variable_tut.sh test test test
+   35  nano variable_tut.sh 
+   36  ./variable_tut.sh test test test
+   37  nano variable_tut.sh 
+   38  ./variable_tut.sh test test test test test test
+   39  nano variable_tut.sh 
+   40  ./variable_tut.sh test test test test test test
+   41  nano variable_tut.sh 
+   42  ./variable_tut.sh test test test test test test
+   43  nano variable_tut.sh 
+   44  ./variable_tut.sh test test test test test test
+   45  nano variable_tut.sh 
+   46  ./variable_tut.sh test test test test test test
+   47  nano variable_tut.sh 
+   48  ./variable_tut.sh test test test test test test
+   49  nano variable_tut.sh 
+   50  ./variable_tut.sh test test test test test test
+   51  nano variable_tut.sh 
+   52  ./variable_tut.sh test test test test test test
+   53  nano variable_tut.sh 
+   54  ./variable_tut.sh test test test test test test
+   55  nano variable_tut.sh 
+   56  ./variable_tut.sh test test test test test test
+   57  nano variable_tut.sh 
+   58* 
+   59  nano variable_tut.sh 
+   60  y
+   61  ./variable_tut.sh test test test test test test
+   62  y
+   63  nano variable_tut.sh 
+   64  ./variable_tut.sh test test test test test test
+   65  nano variable_tut.sh 
+   66  ./variable_tut.sh test test2 test test test
+   67  nano variable_tut.sh 
+   68  ./variable_tut.sh test test2 test test test
+   69  nano variable_tut.sh 
+   70  ./variable_tut.sh test test2 test test test
+   71  ./variable_tut.sh function_one test test test
+   72  nano variable_tut.sh 
+   73  ./variable_tut.sh function_one test test test
+   74  ./variable_tut.sh
+   75  nano variable_tut.sh 
+   76  ./variable_tut.sh
+   77  nano variable_tut.sh 
+   78  seq --help
+   79  nano variable_tut.sh 
+   80  ./variable_tut.sh
+   81  nano variable_tut.sh 
+   82  ./variable_tut.sh
+   83  nano variable_tut.sh 
+   84  nano git-upload 
+   85  history > useless_history_2k17.txt
