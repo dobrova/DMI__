@@ -1,0 +1,63 @@
+#!/bin/bash
+
+#upload function with full update of content
+
+git_up_del () {
+
+	echo Commiting new files
+
+	history>$(date +%Y%m%d_%H_%M)_history.txt
+
+	git add -A
+	git commit -m $(date +%Y%m%d_%H_%M)
+	git push origin master
+
+}
+
+#upload function without deleting
+
+git_up () {
+
+	echo Commiting updated files
+
+	history>$(date +%Y%m%d_%H_%M)_history.txt
+
+	git add .
+	git commit -m $(date +%Y%m%d_%H_%M)
+	git push origin master
+}
+
+#download function
+
+git_down () {
+
+	echo Cloning files
+
+	git clone https://github.com/RTUhacker/DMI__.git
+
+}
+
+#get input function
+
+get_input () {
+
+	if [ -z "$*" ]
+	then
+		echo string is empty
+	elif [ "$*" = up_del ]
+	then
+		git_up_del
+	elif [ "$*" = down ]
+	then
+		git_down
+	elif [ "$*" = up ]
+	then
+		git_up
+	else
+		printf "Wrong function. Try: \n 1. up \n 2. up_del \n 3. down \n"
+	fi
+
+}
+
+#using input function
+	get_input $*
