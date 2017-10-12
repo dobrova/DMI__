@@ -41,23 +41,39 @@ git_down () {
 
 get_input () {
 
-	if [ -z "$*" ]
+	if [ -z "$input" ]
 	then
 		echo string is empty
-	elif [ "$*" = up_del ]
+	elif [ "$input" = up_del ]
 	then
 		git_up_del
-	elif [ "$*" = down ]
+	elif [ "$input" = down ]
 	then
 		git_down
-	elif [ "$*" = up ]
+	elif [ "$input" = up ]
 	then
 		git_up
+	elif [ "$input" = quit ]
+	then
+		quit
 	else
-		printf "Wrong function. Try: \n 1. up \n 2. up_del \n 3. down \n"
+		printf "Wrong function. Try: \n 1. up \n 2. up_del \n 3. down \n 4. quit \n"
 	fi
 
 }
 
+get_input2 ()
+{
+	printf " ------------------------------ \n "
+	printf "There are 4 functions: \n 1. up \n 2. up_del \n"
+	printf " 3. down \n 4. quit \n Type function NAME here: "
+	read input </dev/tty
+	get_input $input
+	echo $input
+}
+
+
+
 #using input function
-	get_input $*
+	#get_input $*
+	get_input2
