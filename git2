@@ -37,7 +37,7 @@ git_down () {
 
 }
 
-# exit bash script
+# exit bash script function
 
 quit () {
 	exit
@@ -45,11 +45,11 @@ quit () {
 
 #function select from input value
 
-get_input () {
+func_select () {
 
 	if [ -z "$input" ]
 	then
-		echo string is empty
+		printf "\n STRING IS EMPTY \n"
 		success=0
 	elif [ "$input" = up_del ]
 	then
@@ -68,13 +68,14 @@ get_input () {
 		quit
 		success=1
 	else
+		printf "\n WRONG INPUT! \n"
 		success=0
 	fi
 
 }
 
-#input repeat function
-get_input2 ()
+#input function with repeat
+get_input ()
 {
 	while [ $success -ne 1 ]
 	do
@@ -82,16 +83,13 @@ get_input2 ()
 		printf "There are 4 functions: \n 1. up \n 2. up_del \n"
 		printf " 3. down \n 4. quit \n Type function NAME here: "
 		read input </dev/tty
-		get_input $input
-		printf "\n"
-		echo Your input was: $input
-		printf "\n"
+		func_select $input
+		printf "\n Your input was: $input \n \n"
 	done
 }
 
 
 
 #using input function
-	#get_input $*
 	success=0
-	get_input2
+	get_input

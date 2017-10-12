@@ -1,0 +1,94 @@
+    1  VirtualBox --startvm XP
+    2  git clone https://github.com/RTUhacker/DMI__
+    3  ls
+    4  cd DMI__/
+    5  ls
+    6  nano git2
+    7  ./git2 up_del up
+    8  ./git2 up_del
+    9  nano git2
+   10  ./git2 down
+   11  rmdir DMI__
+   12  rmdir info
+   13  rmdir --help
+   14  rmdir DMI__ --ignore-fail-on-non-empty 
+   15  ls
+   16  cd DMI__
+   17  ls
+   18  rm *
+   19  ls
+   20  ls -al
+   21  cd ..
+   22  ls 
+   23  rmdir DMI__
+   24  cd DMI__/
+   25  rm .git
+   26  rmdir .git
+   27  rmdir .git --ignore-fail-on-non-empty 
+   28  rm .git
+   29  ls -al
+   30  rmdir --help
+   31  cd .git
+   32  ls
+   33  rm *
+   34  rmdir *
+   35  rmdir * --ignore-fail-on-non-empty 
+   36  rmdir *
+   37  ls
+   38  cd ..
+   39  rmdir DMI__/
+   40  ls
+   41  rm history.txt
+   42  rm history1.txt
+   43  rm test1.txt
+   44  rm test2.txt
+   45  rm useless_history_2k17.txt 
+   46  rm New_History.txt 
+   47  ls 
+   48  rm git-download
+   49  rm git-upload
+   50  ls
+   51  rm 20171005_11_36_history.txt 
+   52  ./git2 up_del
+   53  nano git2
+   54  ./git2
+   55  nano git2
+   56  ./git2
+   57  nano git2
+   58  ./git2
+   59  nano git2
+   60  ./git2
+   61  test
+   62  nano git2
+   63  ./git2
+   64  nano git2
+   65  ./git2
+   66  nano git2
+   67  ./git2
+   68  nano git2
+   69  ./git2
+   70  nano git2
+   71  ./git2
+   72  nano git2
+   73  ./git2
+   74  nano git2
+   75  ./git2
+   76  nano git2
+   77  ./git2
+   78  nano git2
+   79  ./git2
+   80  nano git2
+   81  ./git2
+   82  nano git2
+   83  ./git2
+   84  nano git2
+   85  ./git2
+   86  nano git2
+   87  ./git2
+   88  ls
+   89  nano 20171012_08_35_history.txt 
+   90  rm 2017*
+   91  ls
+   92  ./git2
+   93  nano git2
+   94  history>history1.txt
