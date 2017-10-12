@@ -68,7 +68,6 @@ get_input () {
 		quit
 		success=1
 	else
-		printf "Wrong function. Try: \n 1. up \n 2. up_del \n 3. down \n 4. quit \n"
 		success=0
 	fi
 
