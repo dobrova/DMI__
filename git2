@@ -6,7 +6,7 @@ git_up_del () {
 
 	echo Commiting new files
 
-	history>$(date +%Y%m%d_%H_%M)_history.txt
+#	history>$(date +%Y%m%d_%H_%M)_history.txt
 
 	git add -A
 	git commit -m $(date +%Y%m%d_%H_%M)
@@ -20,7 +20,7 @@ git_up () {
 
 	echo Commiting updated files
 
-	history>$(date +%Y%m%d_%H_%M)_history.txt
+#	history>$(date +%Y%m%d_%H_%M)_history.txt
 
 	git add .
 	git commit -m $(date +%Y%m%d_%H_%M)
