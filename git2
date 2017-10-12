@@ -43,7 +43,7 @@ quit () {
 	exit
 }
 
-#get input function
+#function select from input value
 
 get_input () {
 
@@ -73,6 +73,7 @@ get_input () {
 
 }
 
+#input repeat function
 get_input2 ()
 {
 	while [ $success -ne 1 ]
@@ -82,7 +83,9 @@ get_input2 ()
 		printf " 3. down \n 4. quit \n Type function NAME here: "
 		read input </dev/tty
 		get_input $input
-		echo $input
+		printf "\n"
+		echo Your input was: $input
+		printf "\n"
 	done
 }
 
