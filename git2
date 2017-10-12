@@ -37,6 +37,12 @@ git_down () {
 
 }
 
+# exit bash script
+
+quit () {
+	exit
+}
+
 #get input function
 
 get_input () {
@@ -44,36 +50,46 @@ get_input () {
 	if [ -z "$input" ]
 	then
 		echo string is empty
+		success=0
 	elif [ "$input" = up_del ]
 	then
 		git_up_del
+		success=1
 	elif [ "$input" = down ]
 	then
 		git_down
+		success=1
 	elif [ "$input" = up ]
 	then
 		git_up
+		success=1
 	elif [ "$input" = quit ]
 	then
 		quit
+		success=1
 	else
 		printf "Wrong function. Try: \n 1. up \n 2. up_del \n 3. down \n 4. quit \n"
+		success=0
 	fi
 
 }
 
 get_input2 ()
 {
-	printf " ------------------------------ \n "
-	printf "There are 4 functions: \n 1. up \n 2. up_del \n"
-	printf " 3. down \n 4. quit \n Type function NAME here: "
-	read input </dev/tty
-	get_input $input
-	echo $input
+	while [ $success -ne 1 ]
+	do
+		printf " ------------------------------ \n "
+		printf "There are 4 functions: \n 1. up \n 2. up_del \n"
+		printf " 3. down \n 4. quit \n Type function NAME here: "
+		read input </dev/tty
+		get_input $input
+		echo $input
+	done
 }
 
 
 
 #using input function
 	#get_input $*
+	success=0
 	get_input2
