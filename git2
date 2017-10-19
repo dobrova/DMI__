@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -i
 
 #upload function with full update of content
 
@@ -43,6 +43,14 @@ quit () {
 	exit
 }
 
+#create history function
+
+create_history () {
+	
+	set -o history
+	#history >> $(date +%Y%m%d_%H_%M)_history.txt
+}
+
 #function select from input value
 
 func_select () {
@@ -67,6 +75,9 @@ func_select () {
 	then
 		quit
 		success=1
+	elif [ "$input" = history ]
+	then
+		create_history
 	else
 		printf "\n WRONG INPUT! \n"
 		success=0
@@ -77,6 +88,7 @@ func_select () {
 #input function with repeat
 get_input ()
 {
+	clear
 	while [ $success -ne 1 ]
 	do
 		printf " ------------------------------ \n "
