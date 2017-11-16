@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 import math 
 
-x = input("\n test sk: ")
-
+x = float(input("\n test sk: "))
 
 def sin_calculations_rad_deg(x):
 	sk_radians = math.sin(x)
