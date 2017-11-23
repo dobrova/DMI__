@@ -10,6 +10,7 @@ def sin_calculations_rad_deg(x):
 
 def sin_sum_int(x, loop_range):
 	s=0
+	expr=math.sin(x)
 	for i in range(0, loop_range, 1):
 		sk=(-1)**i*x**(2*i+1)/math.factorial(2*i+1)
 		s+=sk
